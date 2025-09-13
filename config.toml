@@ -1,0 +1,39 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "absolute"
+end-of-line-diagnostics = "hint"
+auto-completion = true
+path-completion = true
+bufferline = "multiple"
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+[editor.lsp]
+enable = true
+display-messages = true
+display-inlay-hints = true
+display-progress-messages = true
+display-color-swatches = true
+
+[editor.inline-diagnostics]
+cursor-line = "info"
+other-lines = "error"
+
