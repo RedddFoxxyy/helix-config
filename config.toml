@@ -18,7 +18,7 @@ select = "block"
 hidden = false
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name"]
+left = ["mode", "file-name", "spinner"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
 mode.normal = "NORMAL"
